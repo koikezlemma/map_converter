@@ -17,10 +17,11 @@ http://www.dis.uniroma1.it/challenge9/download.shtml
 -------------
 
 * generate_kml.rbを実行する．
-** 第一引数は入力のCoordinatesグラフファイル
-** 第二引数は入力のTravel timeグラフファイル(またはDistance graph)
-** 第三引数は出力KMLファイル名
-** 具体例
+
+* 第一引数は入力のCoordinatesグラフファイル
+* 第二引数は入力のTravel timeグラフファイル(またはDistance graph)
+* 第三引数は出力KMLファイル名
+* 具体例
 ```
 $ ruby generate_kml.rb USA-road-d.NY.co USA-road-t.NY.gr newyork.kml
 ```
