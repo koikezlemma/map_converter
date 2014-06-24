@@ -7,7 +7,7 @@ require_relative 'kml_creator.rb'
 # ARGV
 file_name_vertex = ARGV[0] || "../maps/USA-road-d.NY.co"
 file_name_edge = ARGV[1] || "../maps/USA-road-t.NY.gr"
-file_name_output = ARGV[2] || "test.kml"
+file_name_output = ARGV[2] || "newyork.kml"
 
 # Read DIMACS file
 begin
